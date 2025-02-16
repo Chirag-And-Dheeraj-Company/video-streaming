@@ -1,0 +1,13 @@
+.video-list {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+.loading {
+  color: #666;
+  text-align: center;
+}
+.error {
+  color: #ff4444;
+  text-align: center;
+}

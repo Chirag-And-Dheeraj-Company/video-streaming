@@ -1,0 +1,36 @@
+.video-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+.thumbnail {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
+.content {
+  flex-grow: 1;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.action-button {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.play {
+  background-color: #a0a0ff;
+}
+.delete {
+  background-color: #ff4444;
+}

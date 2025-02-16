@@ -178,3 +178,9 @@ main section textarea,
   background-color: #a0a0ff;
   border-radius: 5px;
 }
+
+/* debug css - remove after done */
+
+.hunter {
+  border: solid blue 2px;
+}
